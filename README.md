@@ -2,9 +2,9 @@
 Linear Regression in Rust Language using smartcore package
 
 Building:
-> Install Rust 
-> 
-> Clone this repo 
+> Install Rust
+>
+> Clone this repo
 >
 >`cargo build`
 
