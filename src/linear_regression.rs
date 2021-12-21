@@ -30,11 +30,11 @@ pub fn linear_regression() -> [f32; 2] {
         &x,
         &y,
         Default::default(),
-        KFold::default().with_n_splits(2),
+        KFold::default().with_n_splits(4),
         accuracy,
     )
     .unwrap();
 
     //returning train and test accuracy
-    [results.mean_test_score(), results.mean_train_score()]
+    [results.mean_train_score(), results.mean_test_score()]
 }
