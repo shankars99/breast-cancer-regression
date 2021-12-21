@@ -9,7 +9,6 @@ Building:
 >`cargo build`
 
 
-Output:
-
+Expected output:
 
 `Breast cancer with train 0.95841026 and test accuracy 0.9543238`
