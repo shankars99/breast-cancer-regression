@@ -1,4 +1,4 @@
-# iris-regression
+# breast-cancer-regression
 Linear Regression in Rust Language using smartcore package
 
 Building:
